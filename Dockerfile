@@ -1,4 +1,4 @@
-FROM ethereum/client-go
+FROM ethereum/client-go:v1.7.2
 
 # Installing dependencies
 ADD https://github.com/ethereum/solidity/releases/download/v0.4.14/solc-static-linux /usr/bin/
